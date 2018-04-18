@@ -1,4 +1,5 @@
 language: c
 install: make dep
-target:
 sudo: required
+script: make
+compiler: gcc
